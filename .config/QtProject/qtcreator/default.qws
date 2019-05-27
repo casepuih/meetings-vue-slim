@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE QtCreatorSession>
+<!-- Written by QtCreator 4.7.2, 2019-02-27T17:48:19. -->
+<qtcreator>
+ <data>
+  <variable>CascadeSetActive</variable>
+  <value type="bool">false</value>
+ </data>
+ <data>
+  <variable>Color</variable>
+  <value type="QString">#666666</value>
+ </data>
+ <data>
+  <variable>EditorSettings</variable>
+  <value type="QByteArray">AAAAD0VkaXRvck1hbmFnZXJWNAAAAAQAAABaAC8AaABvAG0AZQAvAHMAdAB1AGQAZQBuAHQAcwAvAGEALwBrAC8AYQBrAGsAbwB5AHUAbgBsAC8AdQBuAHQAaQB0AGwAZQBkAC8AbQBhAGkAbgAuAGMAcABwAAAADAAAAAAYAAAAAQAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAVAAvAGgAbwBtAGUALwBzAHQAdQBkAGUAbgB0AHMALwBhAC8AawAvAGEAawBrAG8AeQB1AG4AbAAvAGUAeAAyAHEAdAAvAG0AYQBpAG4ALgBjAHAAcAAAAAwAAAAAGAAAAAEAAAAAAAAAAAAAAAcAAAAAAAAAAAAAAE4ALwBoAG8AbQBlAC8AcwB0AHUAZABlAG4AdABzAC8AYQAvAGsALwBhAGsAawBvAHkAdQBuAGwALwBlAHgAMgBxAHQALwBhAGQAZAAuAGgAAAAMAAAAABgAAAABAAAAAAAAAAAAAAALAAAAAAAAAAAAAABSAC8AaABvAG0AZQAvAHMAdAB1AGQAZQBuAHQAcwAvAGEALwBrAC8AYQBrAGsAbwB5AHUAbgBsAC8AZQB4ADIAcQB0AC8AYQBkAGQALgBjAHAAcAAAAAwAAAAAGAAAAAEAAAAAAAAAAAAAAAYAAAAAAAAAAAAAAAMAAABSAC8AaABvAG0AZQAvAHMAdAB1AGQAZQBuAHQAcwAvAGEALwBrAC8AYQBrAGsAbwB5AHUAbgBsAC8AZQB4ADIAcQB0AC8AYQBkAGQALgBjAHAAcAAAAA4AYQBkAGQALgBjAHAAcAAAABNDcHBFZGl0b3IuQysrRWRpdG9yAAAATgAvAGgAbwBtAGUALwBzAHQAdQBkAGUAbgB0AHMALwBhAC8AawAvAGEAawBrAG8AeQB1AG4AbAAvAGUAeAAyAHEAdAAvAGEAZABkAC4AaAAAAAoAYQBkAGQALgBoAAAAE0NwcEVkaXRvci5DKytFZGl0b3IAAABUAC8AaABvAG0AZQAvAHMAdAB1AGQAZQBuAHQAcwAvAGEALwBrAC8AYQBrAGsAbwB5AHUAbgBsAC8AZQB4ADIAcQB0AC8AbQBhAGkAbgAuAGMAcABwAAAAEABtAGEAaQBuAC4AYwBwAHAAAAATQ3BwRWRpdG9yLkMrK0VkaXRvcgAAAK0AAAANY3VycmVudGVkaXRvcgAAAFIALwBoAG8AbQBlAC8AcwB0AHUAZABlAG4AdABzAC8AYQAvAGsALwBhAGsAawBvAHkAdQBuAGwALwBlAHgAMgBxAHQALwBhAGQAZAAuAGMAcABwAAAAJgBDAHAAcABFAGQAaQB0AG8AcgAuAEMAKwArAEUAZABpAHQAbwByAAAAGAAAAAEAAAAAAAAAAAAAAAYAAAAAAAAAAAAAAAA=</value>
+ </data>
+ <data>
+  <variable>ProjectDependencies</variable>
+  <valuemap type="QVariantMap"/>
+ </data>
+ <data>
+  <variable>ProjectList</variable>
+  <valuelist type="QVariantList">
+   <value type="QString">/home/students/a/k/akkoyunl/ex2qt/CMakeLists.txt</value>
+  </valuelist>
+ </data>
+ <data>
+  <variable>StartupProject</variable>
+  <value type="QString">/home/students/a/k/akkoyunl/ex2qt/CMakeLists.txt</value>
+ </data>
+ <data>
+  <variable>value-ActiveMode</variable>
+  <value type="QString">Edit</value>
+ </data>
+ <data>
+  <variable>value-Breakpoints</variable>
+  <valuelist type="QVariantList"/>
+ </data>
+ <data>
+  <variable>value-DefaultFormats</variable>
+  <valuemap type="QVariantMap"/>
+ </data>
+ <data>
+  <variable>value-IndividualFormats</variable>
+  <valuemap type="QVariantMap"/>
+ </data>
+ <data>
+  <variable>value-ProjectTree.ExpandData</variable>
+  <valuelist type="QVariantList">
+   <valuelist type="QVariantList">
+    <value type="QString">/home/students/a/k/akkoyunl/ex2qt</value>
+    <value type="QString">ex2qt</value>
+   </valuelist>
+   <valuelist type="QVariantList">
+    <value type="QString">/home/students/a/k/akkoyunl/untitled</value>
+    <value type="QString">untitled</value>
+   </valuelist>
+  </valuelist>
+ </data>
+ <data>
+  <variable>value-TaskWindow.Categories</variable>
+  <valuelist type="QVariantList">
+   <value type="QString">Task.Category.QmlAnalysis</value>
+  </valuelist>
+ </data>
+ <data>
+  <variable>value-TaskWindow.IncludeWarnings</variable>
+  <value type="bool">true</value>
+ </data>
+ <data>
+  <variable>value-Watchers</variable>
+  <valuelist type="QVariantList"/>
+ </data>
+ <data>
+  <variable>valueKeys</variable>
+  <valuelist type="QVariantList">
+   <value type="QString">ActiveMode</value>
+   <value type="QString">Breakpoints</value>
+   <value type="QString">DefaultFormats</value>
+   <value type="QString">IndividualFormats</value>
+   <value type="QString">ProjectTree.ExpandData</value>
+   <value type="QString">TaskWindow.Categories</value>
+   <value type="QString">TaskWindow.IncludeWarnings</value>
+   <value type="QString">Watchers</value>
+  </valuelist>
+ </data>
+</qtcreator>

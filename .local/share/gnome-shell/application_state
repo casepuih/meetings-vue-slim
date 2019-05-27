@@ -1,0 +1,13 @@
+<?xml version="1.0"?>
+<application-state>
+  <context id="">
+    <application id="firefox.desktop" open-window-count="1" score="690" last-seen="1558944045"/>
+    <application id="geany.desktop" open-window-count="0" score="28" last-seen="1558342808"/>
+    <application id="org.gnome.Nautilus.desktop" open-window-count="0" score="101" last-seen="1558450742"/>
+    <application id="xterm.desktop" open-window-count="0" score="0" last-seen="1558943100"/>
+    <application id="code.desktop" open-window-count="0" score="0" last-seen="1558342151"/>
+    <application id="org.gnome.gedit.desktop" open-window-count="0" score="34" last-seen="1558450897"/>
+    <application id="org.gnome.Terminal.desktop" open-window-count="2" score="333" last-seen="1558944088"/>
+    <application id="com.gexperts.Tilix.desktop" open-window-count="0" score="57" last-seen="1558451415"/>
+  </context>
+</application-state>

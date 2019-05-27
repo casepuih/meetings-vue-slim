@@ -1,0 +1,8 @@
+[Default Applications]
+text/html=code-url-handler.desktop
+x-scheme-handler/vscode=code-url-handler.desktop
+
+[Added Associations]
+text/html=org.gnome.gedit.desktop;firefox.desktop;google-chrome.desktop;
+text/x-csrc=geany.desktop;
+text/plain=geany.desktop;

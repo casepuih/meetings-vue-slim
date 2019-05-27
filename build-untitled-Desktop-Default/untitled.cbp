@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="untitled"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/home/students/a/k/akkoyunl/build-untitled-Desktop-Default"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/ninja-build -v all"/>
+					<CompileFile command="/usr/bin/ninja-build -v &quot;$file&quot;"/>
+					<Clean command="/usr/bin/ninja-build -v clean"/>
+					<DistClean command="/usr/bin/ninja-build -v clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/home/students/a/k/akkoyunl/build-untitled-Desktop-Default"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/ninja-build -v rebuild_cache"/>
+					<CompileFile command="/usr/bin/ninja-build -v &quot;$file&quot;"/>
+					<Clean command="/usr/bin/ninja-build -v clean"/>
+					<DistClean command="/usr/bin/ninja-build -v clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="untitled">
+				<Option output="/home/students/a/k/akkoyunl/build-untitled-Desktop-Default/untitled" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/students/a/k/akkoyunl/build-untitled-Desktop-Default"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/8/../../../../include/c++/8"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/8/../../../../include/c++/8/x86_64-redhat-linux"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/8/../../../../include/c++/8/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/8/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/ninja-build -v untitled"/>
+					<CompileFile command="/usr/bin/ninja-build -v &quot;$file&quot;"/>
+					<Clean command="/usr/bin/ninja-build -v clean"/>
+					<DistClean command="/usr/bin/ninja-build -v clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="untitled/fast">
+				<Option output="/home/students/a/k/akkoyunl/build-untitled-Desktop-Default/untitled" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/students/a/k/akkoyunl/build-untitled-Desktop-Default"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/8/../../../../include/c++/8"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/8/../../../../include/c++/8/x86_64-redhat-linux"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/8/../../../../include/c++/8/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/8/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/ninja-build -v untitled/fast"/>
+					<CompileFile command="/usr/bin/ninja-build -v &quot;$file&quot;"/>
+					<Clean command="/usr/bin/ninja-build -v clean"/>
+					<DistClean command="/usr/bin/ninja-build -v clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/home/students/a/k/akkoyunl/build-untitled-Desktop-Default"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/ninja-build -v edit_cache"/>
+					<CompileFile command="/usr/bin/ninja-build -v &quot;$file&quot;"/>
+					<Clean command="/usr/bin/ninja-build -v clean"/>
+					<DistClean command="/usr/bin/ninja-build -v clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/home/students/a/k/akkoyunl/untitled/main.cpp">
+			<Option target="untitled"/>
+		</Unit>
+		<Unit filename="/home/students/a/k/akkoyunl/untitled/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>

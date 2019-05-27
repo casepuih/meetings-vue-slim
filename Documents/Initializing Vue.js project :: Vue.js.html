@@ -1,0 +1,636 @@
+<!DOCTYPE html>
+<html class="js csstransforms3d js csstransforms3d" lang="en"><head>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="generator" content="Hugo 0.49">
+    <meta name="description" content="">
+<meta name="author" content="Wojciech Frącz">
+
+    <link rel="shortcut icon" href="https://dydaktyka.fracz.pl/labs/efrei/334a6f3224c2f188c55a318e1c444e1401bc33fc/images/favicon.png" type="image/x-icon">
+<link rel="icon" href="https://dydaktyka.fracz.pl/labs/efrei/334a6f3224c2f188c55a318e1c444e1401bc33fc/images/favicon.png" type="image/x-icon">
+    <title>Initializing Vue.js project :: Vue.js</title>
+
+    
+    <link href="Initializing%20Vue.js%20project%20::%20Vue.js_files/nucleus.css" rel="stylesheet">
+    <link href="Initializing%20Vue.js%20project%20::%20Vue.js_files/fontawesome-all.css" rel="stylesheet">
+    <link href="Initializing%20Vue.js%20project%20::%20Vue.js_files/hybrid.css" rel="stylesheet">
+    <link href="Initializing%20Vue.js%20project%20::%20Vue.js_files/featherlight.css" rel="stylesheet">
+    <link href="Initializing%20Vue.js%20project%20::%20Vue.js_files/perfect-scrollbar.css" rel="stylesheet">
+    <link href="Initializing%20Vue.js%20project%20::%20Vue.js_files/auto-complete.css" rel="stylesheet">
+    <link href="Initializing%20Vue.js%20project%20::%20Vue.js_files/theme.css" rel="stylesheet">
+    <link href="Initializing%20Vue.js%20project%20::%20Vue.js_files/hugo-theme.css" rel="stylesheet">
+    
+      <link href="Initializing%20Vue.js%20project%20::%20Vue.js_files/theme-blue.css" rel="stylesheet">
+    
+
+    <script src="Initializing%20Vue.js%20project%20::%20Vue.js_files/jquery-2.js"></script>
+
+    <style type="text/css">
+      :root #header + #content > #left > #rlblock_left{
+          display:none !important;
+      }
+      
+    </style>
+    
+  </head>
+  <body class="" data-url="/01_creating/">
+    <nav id="sidebar" class="showVisitedLinks">
+
+
+
+  <div id="header-wrapper">
+    <div id="header">
+      <a href="https://moodle.ki.agh.edu.pl/course/view.php?id=27"><img src="Initializing%20Vue.js%20project%20::%20Vue.js_files/efrei-web-banner.png"></a>
+    </div>
+    
+        <div class="searchbox">
+    <label for="search-by"><i class="fas fa-search"></i></label>
+    <input data-search-input="" id="search-by" type="text" placeholder="Search..." autocomplete="off">
+    <span data-search-clear=""><i class="fas fa-close"></i></span>
+</div>
+
+<script type="text/javascript" src="Initializing%20Vue.js%20project%20::%20Vue.js_files/lunr.js"></script>
+<script type="text/javascript" src="Initializing%20Vue.js%20project%20::%20Vue.js_files/auto-complete.js"></script>
+<script type="text/javascript">
+    
+        var baseurl = '\/';
+    
+</script>
+<script type="text/javascript" src="Initializing%20Vue.js%20project%20::%20Vue.js_files/search.js"></script>
+
+    
+  </div>
+
+    <div class="highlightable ps-container ps-theme-default" data-ps-id="ec111575-9ca0-7923-7960-d93daf8736e4" style="height: 795px;">
+    <ul class="topics">
+
+        
+          
+          
+
+
+ 
+  
+    
+    <li data-nav-id="/01_creating/" title="Initializing Vue.js project" class="dd-item          parent         active                   visited">
+      <a href="https://dydaktyka.fracz.pl/labs/efrei/334a6f3224c2f188c55a318e1c444e1401bc33fc/01_creating/">
+          Initializing Vue.js project
+          
+            <i class="fas read-icon"></i>
+          
+      </a>
+      
+              
+    </li>
+  
+ 
+
+          
+          
+
+
+ 
+  
+    
+    <li data-nav-id="/02_button/" title="Simple, reactive button" class="dd-item 
+        
+        
+        
+        ">
+      <a href="https://dydaktyka.fracz.pl/labs/efrei/334a6f3224c2f188c55a318e1c444e1401bc33fc/02_button/">
+          Simple, reactive button
+          
+            <i class="fas read-icon"></i>
+          
+      </a>
+      
+              
+    </li>
+  
+ 
+
+          
+          
+
+
+ 
+  
+    
+    <li data-nav-id="/03_participants/" title="Friends list" class="dd-item 
+        
+        
+        
+        ">
+      <a href="https://dydaktyka.fracz.pl/labs/efrei/334a6f3224c2f188c55a318e1c444e1401bc33fc/03_participants/">
+          Friends list
+          
+            <i class="fas read-icon"></i>
+          
+      </a>
+      
+              
+    </li>
+  
+ 
+
+          
+          
+
+
+ 
+  
+    
+    <li data-nav-id="/04_further/" title="Further work" class="dd-item 
+        
+        
+        
+        ">
+      <a href="https://dydaktyka.fracz.pl/labs/efrei/334a6f3224c2f188c55a318e1c444e1401bc33fc/04_further/">
+          Further work
+          
+            <i class="fas read-icon"></i>
+          
+      </a>
+      
+      
+        <ul>
+          
+          
+          
+          
+        
+          
+            
+            
+
+
+ 
+  
+    
+      <li data-nav-id="/04_further/extract-form/" title="Extract child component: form" class="dd-item ">
+        <a href="https://dydaktyka.fracz.pl/labs/efrei/334a6f3224c2f188c55a318e1c444e1401bc33fc/04_further/extract-form/">
+        Extract child component: form
+        <i class="fas fa-check read-icon"></i>
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+            
+            
+
+
+ 
+  
+    
+      <li data-nav-id="/04_further/extract-list/" title="Extract child component: list" class="dd-item ">
+        <a href="https://dydaktyka.fracz.pl/labs/efrei/334a6f3224c2f188c55a318e1c444e1401bc33fc/04_further/extract-list/">
+        Extract child component: list
+        <i class="fas fa-check read-icon"></i>
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+            
+            
+
+
+ 
+  
+    
+      <li data-nav-id="/04_further/bootstrap/" title="Integrate Bootstrap" class="dd-item ">
+        <a href="https://dydaktyka.fracz.pl/labs/efrei/334a6f3224c2f188c55a318e1c444e1401bc33fc/04_further/bootstrap/">
+        Integrate Bootstrap
+        <i class="fas fa-check read-icon"></i>
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+            
+            
+
+
+ 
+  
+    
+      <li data-nav-id="/04_further/removing/" title="Removing participants" class="dd-item ">
+        <a href="https://dydaktyka.fracz.pl/labs/efrei/334a6f3224c2f188c55a318e1c444e1401bc33fc/04_further/removing/">
+        Removing participants
+        <i class="fas fa-check read-icon"></i>
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+            
+            
+
+
+ 
+  
+    
+      <li data-nav-id="/04_further/heroku/" title="Deploy your SPA to Heroku" class="dd-item ">
+        <a href="https://dydaktyka.fracz.pl/labs/efrei/334a6f3224c2f188c55a318e1c444e1401bc33fc/04_further/heroku/">
+        Deploy your SPA to Heroku
+        <i class="fas fa-check read-icon"></i>
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+        
+        </ul>
+              
+    </li>
+  
+ 
+
+          
+         
+    </ul>
+
+    
+    
+      <section id="shortcuts">
+        <h3>More</h3>
+        <ul>
+          
+              <li> 
+                  <a class="padding" href="https://dydaktyka.fracz.pl/labs/efrei/334a6f3224c2f188c55a318e1c444e1401bc33fc/web-lecture08-vue.pdf"><i class="far fa-file-pdf"></i> Lecture: Node, Webpack, Vue.js</a>
+              </li>
+          
+        </ul>
+      </section>
+    
+
+    
+    <section id="prefooter">
+      <hr>
+      <ul>
+      
+      
+      
+        <li><a class="padding" href="#" data-clear-history-toggle=""><i class="fas fa-history fa-fw"></i> Clear History</a></li>
+      
+      </ul>
+    </section>
+    
+    <section id="footer">
+      
+    </section>
+  <div class="ps-scrollbar-x-rail" style="left: 0px; bottom: 0px;"><div class="ps-scrollbar-x" tabindex="0" style="left: 0px; width: 0px;"></div></div><div class="ps-scrollbar-y-rail" style="top: 0px; right: 0px;"><div class="ps-scrollbar-y" tabindex="0" style="top: 0px; height: 0px;"></div></div></div>
+</nav>
+
+
+
+
+
+        <section id="body">
+        <div id="overlay"></div>
+        <div class="padding highlightable">
+              
+              <div>
+                <div id="top-bar-sticky-wrapper" class="sticky-wrapper is-sticky" style="height: 48px;"><div id="top-bar" style="width: 1416px; position: fixed; top: 0px; z-index: 1000;">
+                
+                
+                <div id="breadcrumbs" itemscope="" itemtype="http://data-vocabulary.org/Breadcrumb">
+                    <span id="sidebar-toggle-span">
+                        <a href="#" id="sidebar-toggle" data-sidebar-toggle="" class="highlight">
+                          <i class="fas fa-bars"></i>
+                        </a>
+                    </span>
+                  
+                  <span id="toc-menu"><i class="fas fa-list-alt"></i></span>
+                  
+                  <span class="links">
+                    
+          
+          
+            
+            
+          
+          
+            <a href="https://dydaktyka.fracz.pl/labs/efrei/334a6f3224c2f188c55a318e1c444e1401bc33fc/" class="highlight">Introduction</a> &gt; Initializing Vue.js project
+          
+         
+          
+           
+                  </span>
+                </div>
+                
+                    <div class="progress">
+    <div class="wrapper">
+<nav id="TableOfContents">
+<ul>
+<li>
+<ul>
+<li><a href="#create-your-working-directory" class="highlight">Create your working directory</a></li>
+<li><a href="#see-what-s-inside" class="highlight">See what’s inside</a></li>
+<li><a href="#if-you-have-time" class="highlight">IF YOU HAVE TIME</a>
+<ul>
+<li><a href="#push-the-code-to-your-own-repo" class="highlight">Push the code to your own repo</a></li>
+</ul></li>
+</ul></li>
+</ul>
+</nav>
+    </div>
+</div>
+
+                
+              </div></div>
+            </div>
+            
+
+        
+        <div id="body-inner">
+          
+            <h1>Initializing Vue.js project</h1>
+          
+
+        
+
+
+
+
+<h2 id="create-your-working-directory">Create your working directory <span class="anchor" data-clipboard-text="https://dydaktyka.fracz.pl/labs/efrei/334a6f3224c2f188c55a318e1c444e1401bc33fc/01_creating/#create-your-working-directory"><i class="fas fa-link fa-lg"></i></span></h2>
+
+<p>Your project will have many dependencies (around 200MB for now).
+In order not to exceed your quota, please work on the host hard drive
+instead of a shared one.</p>
+
+<p>If you are working on your computer, start from point 4.</p>
+
+<ol>
+<li>Go to <code>/mnt/workspaces/private</code><span class="copy-to-clipboard" title="Copy to clipboard"></span>.</li>
+<li>Create a directory with your username there, e.g. <code>mkdir josephina</code><span class="copy-to-clipboard" title="Copy to clipboard"></span>.</li>
+<li>Enter it, e.g. <code>cd josephina</code><span class="copy-to-clipboard" title="Copy to clipboard"></span>.</li>
+<li>Clone the sample project repository
+<code>
+git clone https://github.com/fracz/vue-starter efrei-vue
+</code><span class="copy-to-clipboard" title="Copy to clipboard"></span></li>
+<li>Enter it <code>cd efrei-vue</code><span class="copy-to-clipboard" title="Copy to clipboard"></span>.</li>
+<li>Remove my repository data <code>rm -fr .git</code><span class="copy-to-clipboard" title="Copy to clipboard"></span>.</li>
+<li>Install NPM dependencies <code>npm install</code><span class="copy-to-clipboard" title="Copy to clipboard"></span> (may take a while).</li>
+<li>Start application with <code>npm run serve</code><span class="copy-to-clipboard" title="Copy to clipboard"></span>.</li>
+<li>Head over to <a href="http://localhost:8080/" class="highlight">http://localhost:8080</a> and see your Vue.js application.</li>
+</ol>
+
+<p>As always, if you want to stop the server in the terminal, hit <code>Ctrl+C</code><span class="copy-to-clipboard" title="Copy to clipboard"></span>.</p>
+
+<h2 id="see-what-s-inside">See what’s inside <span class="anchor" data-clipboard-text="https://dydaktyka.fracz.pl/labs/efrei/334a6f3224c2f188c55a318e1c444e1401bc33fc/01_creating/#see-what-s-inside"><i class="fas fa-link fa-lg"></i></span></h2>
+
+<p>See <code>package.json</code><span class="copy-to-clipboard" title="Copy to clipboard"></span>, <code>node_modules</code><span class="copy-to-clipboard" title="Copy to clipboard"></span> contents, <code>public/index.html</code><span class="copy-to-clipboard" title="Copy to clipboard"></span>,
+<code>src/main.js</code><span class="copy-to-clipboard" title="Copy to clipboard"></span> and <code>src/App.vue</code><span class="copy-to-clipboard" title="Copy to clipboard"></span>. Make sure you understand their purpose.</p>
+
+<h2 id="if-you-have-time">IF YOU HAVE TIME <span class="anchor" data-clipboard-text="https://dydaktyka.fracz.pl/labs/efrei/334a6f3224c2f188c55a318e1c444e1401bc33fc/01_creating/#if-you-have-time"><i class="fas fa-link fa-lg"></i></span></h2>
+
+<h3 id="push-the-code-to-your-own-repo">Push the code to your own repo <span class="anchor" data-clipboard-text="https://dydaktyka.fracz.pl/labs/efrei/334a6f3224c2f188c55a318e1c444e1401bc33fc/01_creating/#push-the-code-to-your-own-repo"><i class="fas fa-link fa-lg"></i></span></h3>
+
+<p>First, create new repo on GitHub, and then execute the following
+(adjusting the repository URL):</p>
+
+<pre><code class="hljs sql">git init
+git add -A
+git <span class="hljs-keyword">commit</span> -m <span class="hljs-string">"Initial Vue.js project"</span>
+git remote <span class="hljs-keyword">add</span> origin https://github.com/YOURNAME/vue-spa
+git push -u origin <span class="hljs-keyword">master</span>
+</code><span class="copy-to-clipboard" title="Copy to clipboard"></span></pre>
+
+
+<footer class=" footline">
+	
+</footer>
+
+        
+        </div> 
+        
+
+      </div>
+
+    <div id="navigation">
+        
+        
+        
+        
+            
+            
+                
+                    
+                    
+                
+                
+
+                    
+                    
+                        
+                    
+                    
+
+                    
+                        
+            
+            
+                
+                    
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                        
+                        
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+            
+        
+                    
+            
+        
+        
+        
+
+
+        
+            <a class="nav nav-prev" href="https://dydaktyka.fracz.pl/labs/efrei/334a6f3224c2f188c55a318e1c444e1401bc33fc/" title="Introduction"> <i class="fas fa-chevron-left"></i></a>
+        
+        
+            <a class="nav nav-next" href="https://dydaktyka.fracz.pl/labs/efrei/334a6f3224c2f188c55a318e1c444e1401bc33fc/02_button/" title="Simple, reactive button" style="margin-right: 0px;"><i class="fas fa-chevron-right"></i></a>
+        
+    </div>
+
+    </section>
+    
+    <div style="left: -1000px; overflow: scroll; position: absolute; top: -1000px; border: none; box-sizing: content-box; height: 200px; margin: 0px; padding: 0px; width: 200px;">
+      <div style="border: none; box-sizing: content-box; height: 200px; margin: 0px; padding: 0px; width: 200px;"></div>
+    </div>
+    <script src="Initializing%20Vue.js%20project%20::%20Vue.js_files/clipboard.js"></script>
+    <script src="Initializing%20Vue.js%20project%20::%20Vue.js_files/perfect-scrollbar.js"></script>
+    <script src="Initializing%20Vue.js%20project%20::%20Vue.js_files/perfect-scrollbar_002.js"></script>
+    <script src="Initializing%20Vue.js%20project%20::%20Vue.js_files/jquery.js"></script>
+    <script src="Initializing%20Vue.js%20project%20::%20Vue.js_files/featherlight.js"></script>
+    <script src="Initializing%20Vue.js%20project%20::%20Vue.js_files/html5shiv-printshiv.js"></script>
+    <script src="Initializing%20Vue.js%20project%20::%20Vue.js_files/highlight.js"></script>
+    <script>hljs.initHighlightingOnLoad();</script>
+    <script src="Initializing%20Vue.js%20project%20::%20Vue.js_files/modernizr.js"></script>
+    <script src="Initializing%20Vue.js%20project%20::%20Vue.js_files/learn.js"></script>
+    <script src="Initializing%20Vue.js%20project%20::%20Vue.js_files/hugo-learn.js"></script>
+
+    <link href="Initializing%20Vue.js%20project%20::%20Vue.js_files/mermaid.css" type="text/css" rel="stylesheet">
+    <script src="Initializing%20Vue.js%20project%20::%20Vue.js_files/mermaid.js"></script>
+    <script>
+        mermaid.initialize({ startOnLoad: true });
+    </script>
+    
+
+  
+
+<div class="autocomplete-suggestions "></div></body></html>

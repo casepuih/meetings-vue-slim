@@ -1,0 +1,3 @@
+/home/students/a/k/akkoyunl/build-ex2qt-Desktop-Default/CMakeFiles/rebuild_cache.dir
+/home/students/a/k/akkoyunl/build-ex2qt-Desktop-Default/CMakeFiles/ex2qt.dir
+/home/students/a/k/akkoyunl/build-ex2qt-Desktop-Default/CMakeFiles/edit_cache.dir
